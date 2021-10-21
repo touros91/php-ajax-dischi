@@ -19,9 +19,9 @@
 </head>
 <body>
     <header>
-            <div class="logo">
-                <img src="img/spotify-logo.png" alt="logoAlt">
-            </div>
+        <div class="logo">
+            <img src="img/spotify-logo.png" alt="Spotify Logo">
+        </div>
     </header>
     <main>
         <div class="albums-container">
