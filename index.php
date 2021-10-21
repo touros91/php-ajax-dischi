@@ -28,8 +28,7 @@
             <?php foreach ($database as $album) { ?>
                 <div class="album">
                     <div class="image">
-                        <img src="<?php echo $album["poster"]; ?>" alt="card.title">
-
+                        <img src="<?php echo $album["poster"]; ?>" alt="<?php echo $album["title"].' Album Image'; ?>">
                     </div>
                     <div class="info">
                         <h4 class="title"><?php echo strtoupper($album["title"]); ?></h4>

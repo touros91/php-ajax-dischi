@@ -4,7 +4,7 @@ $database = [
 		'title' => 'New Jersey',
 		'author' => 'Bon Jovi',
 		'year' => 1988,
-		'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg'
+		'poster' => 'https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg'
 	],
 	[
 		'title' => 'Live at Wembley 86',
