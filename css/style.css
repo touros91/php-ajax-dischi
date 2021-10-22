@@ -20,11 +20,15 @@ header {
 .logo img {
     width: 100%;
 }
+
 .selects {
     width: 300px;
     display: flex;
     justify-content: space-between;
-    align-content: center; 
+    align-content: center;  
+}
+select {
+    margin: 0 10px;
 }
 
 /* select {
