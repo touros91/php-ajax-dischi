@@ -1,6 +1,5 @@
 <?php
-    require __DIR__ . '/data.php';
-    require __DIR__ . '/functions.php';
+    require __DIR__ . '/database.php';
 ?>
 
 <!DOCTYPE html>
@@ -28,16 +27,16 @@
     <main>
         <div class="albums-container">
             <?php foreach ($database as $album) { ?>
-                <div class="album">
-                    <div class="image">
-                        <img src="<?php echo $album["poster"]; ?>" alt="<?php echo $album["title"].' Album Image'; ?>">
-                    </div>
-                    <div class="info">
-                        <h4 class="title"><?php echo strtoupper($album["title"]); ?></h4>
-                        <h5 class="artist"><?php echo $album["author"]; ?></h5>
-                        <h5 class="year"><?php echo $album["year"]; ?></h5>      
-                    </div>        
-                </div>  
+            <div class="album">
+                <div class="image">
+                    <img src="<?php echo $album["poster"]; ?>" alt="<?php echo $album["title"].' Album Image'; ?>">
+                </div>
+                <div class="info">
+                    <h4 class="title"><?php echo strtoupper($album["title"]); ?></h4>
+                    <h5 class="artist"><?php echo $album["author"]; ?></h5>
+                    <h5 class="year"><?php echo $album["year"]; ?></h5>      
+                </div>        
+            </div>  
             <?php } ?>
         </div>
     </main>
